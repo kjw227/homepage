@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jinwoo Kim</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet'>
+
+  <style>
+    header, .sectionheader, .ibody, .dl-papers {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .dt-conf {
+      width: 127px;
+      float: left;
+      clear: left;
+
+      font-family: 'Noto Sans';
+      font-weight: bold;
+    }
+    .dt-conf::after {
+      content: ':';
+    }
+
+    .dd-conf {
+      font-family: 'Noto Sans';
+      margin-left: 127px;
+      margin-bottom: 7px;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 47px;
+      margin-bottom: 29px;
+    }
+
+    .nameheader {
+      width: 100%;
+      text-align: left;
+      font-family: 'Inconsolata';
+      font-size: 47px;
+      margin-left: 19px;
+      margin-bottom: 13px;
+    }
+
+    .schoolheader {
+      width: 100%;
+      text-align: left;
+      font-family: 'Inconsolata';
+      font-size: 23px;
+      margin-left: 19px;
+    }
+
+    .spacer{
+      margin-bottom: 13px;
+    }
+
+    .namebody {
+      width: 100%;
+      text-align: left;
+      font-family: 'Noto Sans';
+      margin-left: 19px;
+      margin-bottom: 11px;
+    }
+
+    .sectionheader {
+      text-align: left;
+      font-family: 'Inconsolata';
+      font-size: 33px;
+      margin-bottom: 13px;
+    }
+
+    .ibody {
+      text-align: left;
+      font-family: 'Noto Sans';
+      margin-bottom: 19px;
+    }
+
+    
+  </style>
+</head>
+<body style="background-color:#F6F4ED">
+
+  <header>
+    <table style="width: 100%"><tbody>
+      <td style="width: 25%">
+        <img src="pics/me_small.jpeg" alt="me" width=210 height=280>
+      </td>
+      <td style="width: 75%">
+      <div class="nameheader"> Jinwoo Kim </div>
+      <div class="schoolheader"> Department of Computer Sciences </div>
+      <div class="schoolheader"> University of Wisconsin-Madison </div>
+      <div class="spacer"></div>
+
+
+      <div class="namebody">
+      I am a second-year Ph.D. student at UW-Madison, 
+      where I study programming languages with <br>
+      <a href="https://pages.cs.wisc.edu/~loris/">Loris D'Antoni</a> and 
+      <a href="http://pages.cs.wisc.edu/~reps/">Thomas Reps</a>. <br>
+      My studies are supported by a grant from the Korea Foundation for Advanced Studies.
+      <br><br>
+      Email: <script type="text/javascript" language="javascript">
+        <!--
+        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+        // Random encryption key feature coded by Andrew Moulden
+        // This code is freeware provided these four comment lines remain intact
+        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+        { coded = "0E@oH.vlHo.Q3c"
+          key = "qDALuMTO4d1nGIxmawcJ9Bs3pi26KWNvor8YHP0lgeCzkUV7FZftXEyQjbSRh5"
+          shift=coded.length
+          link=""
+          for (i=0; i<coded.length; i++) {
+            if (key.indexOf(coded.charAt(i))==-1) {
+              ltr = coded.charAt(i)
+              link += (ltr)
+            }
+            else {     
+              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+              link += (key.charAt(ltr))
+            }
+          }
+        document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+        }
+        //-->
+        </script><noscript></noscript>
+      <br>
+      Office: Office 6360 at 1210 W. Dayton Street, Madison, WI 53706
+      </div>
+      </td>
+    </tbody></table>
+  </header>
+
+  <div class="sectionheader">
+    Research Interests
+  </div>
+  <div class="ibody">
+    My primary research interests are in topics from programming languages and verification.
+    I am also interested in the application of these topics to other CS fields, 
+    such as security or computer architecture.
+    <br><br>
+    Recently, I have been working in between the intersection of ideas from program analysis and program synthesis, 
+    in order to explore fundamental questions behind the theory and practice of synthesizing programs.
+  </div>
+
+
+  <div class="sectionheader">
+    Papers
+  </div>
+  
+  <dl class="dl-papers">
+    <dt class="dt-conf">POPL 2021</dt> <dd class="dd-conf">Semantics-Guided Synthesis [<a href="./papers/popl21_semgus.pdf" target="_blank">pdf</a>] 
+      [<a href="https://app.clowdr.org/conference/popl2021/item/5b50bd98-0c54-4733-866d-5a81a26a23e9" target="_blank">talks</a>]<br> 
+      Jinwoo Kim, Qinheping Hu, Loris D'Antoni, Thomas Reps</dd>
+  </dl>
+  
+
+  <div class="sectionheader">
+    Presentations and Awards
+  </div>
+  
+  <dl class="dl-papers">
+    <dt class="dt-conf">Jan. 2020</dt> <dd class="dd-conf">
+      I received the 1st Place Graduate Award at the Student Research Competition at POPL 2020, for my work on 
+      'Proving Unrealizability for Imperative Syntax-Guided Synthesis Problems'.
+    </dd>
+  </dl>
+
+</body>
+</html>
+
