@@ -95,50 +95,57 @@
   <header>
     <table style="width: 100%"><tbody>
       <td style="width: 25%">
-        <img src="pics/me_small.jpeg" alt="me" width=210 height=280>
+        <img src="pics/tire.jpeg" alt="me" width=210 height=280>
       </td>
       <td style="width: 75%">
       <div class="nameheader"> Jinwoo Kim </div>
-      <div class="schoolheader"> Department of Computer Sciences </div>
-      <div class="schoolheader"> University of Wisconsin-Madison (On leave) </div>
-      <div class="schoolheader"> Seoul National University (Current) </div>
+      <div class="schoolheader"> Ph.D Student in Computer Science and Engineering </div>
+      <div class="schoolheader"> University of California-San Diego </div>
       <div class="spacer"></div>
 
 
       <div class="namebody">
-      I was a second-year Ph.D. student at UW-Madison, 
-      where I studied programming languages with <br>
+      I am a third-year Ph.D. student at UC San Diego, studying programming languages 
+      with <br>
+      <a href="https://pages.cs.wisc.edu/~loris/">Loris D'Antoni</a>.
+      <br>
+      Previously, I did my Masters at UW-Madison advised by 
       <a href="https://pages.cs.wisc.edu/~loris/">Loris D'Antoni</a> and 
-      <a href="http://pages.cs.wisc.edu/~reps/">Thomas Reps</a>. <br>
-      Currently, I am taking a leave of absence and working as a researcher at Seoul National University 
-      with <a href="https://sf.snu.ac.kr/gil.hur/">Chung-Kil Hur</a> in order to fulfill alternate military service for South Korea (until August 2024).
+      <a href="http://pages.cs.wisc.edu/~reps/">Thomas Reps</a>.
+      After that, I took a leave of absence from graduate studies to
+      work as a associate reasearcher at Seoul National University with 
+      <a href="https://sf.snu.ac.kr/gil.hur/">Chung-Kil Hur</a>,
+      performing alternate military service for South Korea.
+      <br><br>
+      The pic is from when my car tire was catastrophically deflated, until I get 
+      a suitable profile pic.
       <br><br>
       Email: <script type="text/javascript" language="javascript">
-        <!--
-        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-        // Random encryption key feature coded by Andrew Moulden
-        // This code is freeware provided these four comment lines remain intact
-        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-        { coded = "0E@oH.vlHo.Q3c"
-          key = "qDALuMTO4d1nGIxmawcJ9Bs3pi26KWNvor8YHP0lgeCzkUV7FZftXEyQjbSRh5"
-          shift=coded.length
-          link=""
-          for (i=0; i<coded.length; i++) {
-            if (key.indexOf(coded.charAt(i))==-1) {
-              ltr = coded.charAt(i)
-              link += (ltr)
-            }
-            else {     
-              ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-              link += (key.charAt(ltr))
-            }
+      <!--
+      // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+      // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+      // This code is freeware provided these four comment lines remain intact
+      // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+      { coded = "XK8wsh@JndV.2VJ"
+        key = "nwAfOuyid5LqRhvSDGZHJCKVmk7bxjBNg1TUMaPp8zWeX4Ic0tFQlo6sE92Y3r"
+        shift=coded.length
+        link=""
+        for (i=0; i<coded.length; i++) {
+          if (key.indexOf(coded.charAt(i))==-1) {
+            ltr = coded.charAt(i)
+            link += (ltr)
           }
-        document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+          else {     
+            ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+            link += (key.charAt(ltr))
+          }
         }
-        //-->
-        </script><noscript></noscript>
+      document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+      }
+      //-->
+      </script><noscript></noscript>
       <br>
-      Office: 
+      Office: 3262 at Computer Science and Engineering Building, UCSD
       </div>
       </td>
     </tbody></table>
@@ -148,12 +155,15 @@
     Research Interests
   </div>
   <div class="ibody">
-    My primary research interests are in topics from programming languages and verification.
-    I am also interested in the application of these topics to other CS fields, 
-    such as security or computer architecture.
-    <br><br>
-    Recently, I have been working in between the intersection of ideas from program analysis and program synthesis, 
-    in order to explore fundamental questions behind the theory and practice of synthesizing programs.
+  My primary research interests lie in the automatic synthesis and verification of programs through formal methods, 
+  and the mathematical theory that underlies these formal methods. 
+  For example, my work in POPL21, CAV21, and OOPSLA24 explore various new approaches to program synthesis, 
+  while those in POPL23 and PLDI23 focus on establishing theoretical foundations to previously challenging problems in the field.
+  <br><br>
+  I also hold an interest in lower-level systems and security research, in particular the intersection between these
+  fields and formal methods. 
+  For example, my work in POPL25 helps bring integer-pointer casting in C, 
+  an important but surprisingly complex low-level feature, to the world of formal verification. 
   </div>
 
 
@@ -162,6 +172,28 @@
   </div>
   
   <dl class="dl-papers">
+      <dt class="dt-conf">POPL 2025 <br /> <br />  </dt> <dd class="dd-conf">
+      Archmage and CompCertCast: End-to-End Verification Supporting Integer-Pointer Casting
+      [<a href="./papers/cav21_pps.pdf" target="_blank">pdf</a>]
+      <br> 
+      Yonghyun Kim, Minki Cho, Jaehyung Lee, Jinwoo Kim, Taeyoung Yoon, Youngju Song, Chung-Kil Hur</dd>
+
+     <dt class="dt-conf">OOPSLA 2024 <br /> <br />  </dt> <dd class="dd-conf">
+      Automating Unrealizability Logic: Hoare-style Proof Synthesis for Infinite Sets of Programs
+      [<a href="./papers/oopsla24_ul.pdf" target="_blank">pdf</a>]
+      <br> 
+      Shaan Nagy, Jinwoo Kim, Thomas Reps, Loris D’Antoni</dd>
+
+    <dt class="dt-conf">PLDI 2023 <br /> <br />  </dt> <dd class="dd-conf">Fair Operational Semantics
+      [<a href="./papers/pldi23_fos.pdf" target="_blank">pdf</a>]
+      <br> 
+      Dongjae Lee, Minki Cho, Jinwoo Kim, Soonwon Moon, Youngju Song, Chung-Kil Hur</dd>
+
+    <dt class="dt-conf">POPL 2023 <br /> <br />  </dt> <dd class="dd-conf">Unrealizability Logic
+      [<a href="./papers/popl23_ul.pdf" target="_blank">pdf</a>]  
+      <br> 
+      Jinwoo Kim, Loris D'Antoni, Thomas Reps</dd>
+
     <dt class="dt-conf">CAV 2021 <br /> <br />  </dt> <dd class="dd-conf">Programmable Program Synthesis
       [<a href="./papers/cav21_pps.pdf" target="_blank">pdf</a>]  
       <br> 
@@ -171,7 +203,6 @@
       [<a href="./papers/popl21_semgus.pdf" target="_blank">pdf</a>] 
       [<a href="https://app.clowdr.org/conference/popl2021/item/5b50bd98-0c54-4733-866d-5a81a26a23e9" target="_blank">talks</a>]
       [<a href="./slides/popl21_semgus_slides.pdf" target="_blank">slides</a>|<a href="./slides/popl21_semgus_slides_short.pdf" target="_blank">5min_slides</a>]
-      [<a href="./popl21_public/">artifact_VM</a>]
       <br> 
       Jinwoo Kim, Qinheping Hu, Loris D'Antoni, Thomas Reps</dd>
   </dl>
@@ -196,16 +227,11 @@
       I received the 1st Place Graduate Award at the Student Research Competition at POPL 2020, for my work on 
       "Proving Unrealizability for Imperative Syntax-Guided Synthesis Problems".
     </dd>
+    <dt class="dt-conf">Sep. 2019 ~ <br /> <br /></dt> <dd class="dd-conf">
+			I am grateful to be awarded a fellowship from the Korea Foundation of Advanced Studies for studying abroad.
+    </dd>
   </dl>
-
-  <div class="sectionheader">
-    Others
-  </div>
-  <dl class="dl-papers">
-    <dd class="dd-others"> <ul> 
-        <li>I lead the <a href="https://semgus.org">Semantics-Guided Synthesis</a> effort for standardizing the Semgus format.</li> 
-    </ul></dd>
-  </dl>
+  <br><br>
 </body>
 </html>
 
