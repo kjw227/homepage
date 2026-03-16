@@ -105,17 +105,21 @@
 
 
       <div class="namebody">
-      I am a third-year Ph.D. student at UC San Diego, studying programming languages 
-      with <br>
+      I am a fourth-year Ph.D. student at UC San Diego, working in the intersection of 
+      programming languages and generative AI with 
       <a href="https://pages.cs.wisc.edu/~loris/">Loris D'Antoni</a>.
-      <br>
-      Previously, I did my Masters at UW-Madison advised by 
-      <a href="https://pages.cs.wisc.edu/~loris/">Loris D'Antoni</a> and 
-      <a href="http://pages.cs.wisc.edu/~reps/">Thomas Reps</a>.
-      After that, I took a leave of absence from graduate studies to
-      work as a associate reasearcher at Seoul National University with 
-      <a href="https://sf.snu.ac.kr/gil.hur/">Chung-Kil Hur</a>,
-      performing alternate military service for South Korea.
+      <br><br>
+      Previously, I did my Masters at UW-Madison also with Loris, 
+      then took a leave of absence to perform mandatory military service 
+      as a researcher for South Korea
+      with <a href="https://sf.snu.ac.kr/gil.hur/">Chung-Kil Hur</a>.
+      <!--
+      // <a href="https://pages.cs.wisc.edu/~loris/">Loris D'Antoni</a>.
+      // After that, I took a leave of absence from graduate studies to
+      // work as a associate reasearcher at Seoul National University with 
+      // <a href="https://sf.snu.ac.kr/gil.hur/">Chung-Kil Hur</a>,
+      // performing alternate military service for South Korea.
+      //-->
       <br><br>
       Email: <script type="text/javascript" language="javascript">
       <!--
@@ -152,28 +156,47 @@
     Research Interests
   </div>
   <div class="ibody">
-  My primary research interests lie in the automatic synthesis and verification of programs through formal methods, 
-  and the mathematical theory that underlies these formal methods. 
-  For example, my work in POPL21, CAV21, and OOPSLA24 explore various new approaches to program synthesis, 
-  while those in POPL23 and PLDI23 focus on establishing theoretical foundations to previously challenging problems in the field.
+  Before working with generative AI, my research used to focus on formal semantics that capture the behavoir 
+  of sets of programs (as opposed to single programs) in the context of program synthesis.
   <br><br>
-  I also hold an interest in lower-level systems and security research, in particular the intersection between these
-  fields and formal methods. 
-  For example, my work in POPL25 helps bring integer-pointer casting in C, 
-  an important but surprisingly complex low-level feature, to the world of formal verification. 
+  My current research aims to understand and influence generative AI models (such as LLMs) 
+  under this paradigm.
+  Generative models can be thought of as defining a probability distribution over a set of programs; 
+  my research focuses on understanding and manipulating 
+  these distributions through the lens of program semantics,
+  with the goal of getting generative models to more reliably output correct code.
+  <br><br>
+  For an example, check out 
+  <a href="https://arxiv.org/abs/2602.12468" target="_blank">Diffinity</a>,
+  where we utilize information about distributions defined by diffusion models, to guide them 
+  generate text that matches a regular expression.
   </div>
-
 
   <div class="sectionheader">
     Papers
   </div>
   
   <dl class="dl-papers">
-     <dt class="dt-conf">OOPSLA 2025 <br /> <br />  </dt> <dd class="dd-conf">
+     <dt class="dt-conf">Preprint <br /> <br />  </dt> <dd class="dd-conf">
+      Diffusion Models can Obey Formal Syntax
+      [<a href="https://arxiv.org/abs/2602.12468" target="_blank">pdf</a>]
+      <br> 
+      Jinwoo Kim, Taylor Berg-Kirkpatrick, Loris D'Antoni<br>
+     </dd>
+
+     <dt class="dt-conf">Preprint <br /> <br />  </dt> <dd class="dd-conf">
+      The Computational Complexity of Program Synthesis
+      [<a href="https://arxiv.org/abs/2405.16997" target="_blank">pdf</a>]
+      <br> 
+      Jinwoo Kim, Loris D'Antoni<br>
+     </dd>
+
+     <dt class="dt-conf">OOPSLA 2025 <br /> <br /> </dt> <dd class="dd-conf">
       Semantics of Sets of Programs
       [<a href="./papers/oopsla25_setsem.pdf" target="_blank">pdf</a>]
       <br> 
-      Jinwoo Kim, Shaan Nagy, Thomas Reps, Loris D’Antoni</dd>
+      Jinwoo Kim*, Shaan Nagy*, Thomas Reps, Loris D’Antoni &nbsp &nbsp &nbsp (<i>* Equal contribution</i>)
+     </dd>
 
       <dt class="dt-conf">POPL 2025 <br /> <br />  </dt> <dd class="dd-conf">
       Archmage and CompCertCast: End-to-End Verification Supporting Integer-Pointer Casting
